@@ -36,13 +36,13 @@ the interactive interface will open. follow the on-screen instructions:
 - press '2' to test the graph coloring algorithm.
 - press 'q' to quit the program.
 
-# how it works
+## how it works
 - the knapsack problem is a classic problem where you have to pick items with given weights and values to maximize the total value without exceeding a weight limit.
 - two algorithms are tested: brute force and dynamic programming.
 - graph coloring involves assigning colors to graph vertices such that no two adjacent vertices have the same color.
 - the greedy algorithm is used here, where vertices are assigned colors one by one in a simple way.
 
-# visualisations
+## visualisations
 the program uses pygame to provide an interactive interface.
 you can watch the knapsack algorithm run, test different inputs, and see how the time complexity scales.
 the graph coloring algorithm will display how it assigns colors to vertices while ensuring no adjacent vertices have the same color.
